@@ -37,15 +37,15 @@ Taskify is a lightweight and extensible task management system built with **ASP.
 ## 🛠️ Setup Instructions
 
 1. Clone the repository:
-``ذ
+`` 
    git clone https://github.com/yourusername/taskify-api.git
-``ذ
+`` 
 
 2. Navigate to the project directory:
 
-   ``ذ
+   `` 
    cd taskify-api
-   ``ذ
+   `` 
 
 3. Configure the `appsettings.json` with:
 
@@ -54,14 +54,14 @@ Taskify is a lightweight and extensible task management system built with **ASP.
 
 4. Run database migrations:
 
-   ``ذ
+   `` 
    dotnet ef database update
-   ``ذ
+   `` 
 
 5. Run the application:
-   ``ذ
+   `` 
    dotnet run
-   ``ذ
+   `` 
 ---
 
 ## 🐳 Docker Support
@@ -69,10 +69,10 @@ Taskify is a lightweight and extensible task management system built with **ASP.
 > If you selected Docker support during setup:
 
 Build and run the container:
-``ذ
+`` 
 docker build -t taskify-api .
 docker run -p 5000:80 taskify-api
-``ذ
+`` 
 
 ---
 
